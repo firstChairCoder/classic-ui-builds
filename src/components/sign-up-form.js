@@ -12,8 +12,9 @@ import { COLORS, FONTS, ICONS, SIZES } from "../constants";
 
 const styles = StyleSheet.create({
   container: {
-    marginVertical: SIZES.font * 2,
+    flex: 1,
     paddingHorizontal: SIZES.medium * 2
+    // paddingVertical: SIZES.font * 2
   },
   inputHeading: { color: COLORS.lightGreen, ...FONTS.body5 },
   input: {
